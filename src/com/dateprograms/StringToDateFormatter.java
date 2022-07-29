@@ -38,5 +38,7 @@ public class StringToDateFormatter {
 		String date5="Tuesday,2022 Aug, 16 11:10:55 PM";
 		LocalDateTime localDate6=LocalDateTime.parse(date5, formatter6);
 		System.out.println(formatter6.format(localDate6));
+		
+		
 	}
 }
