@@ -12,5 +12,12 @@ public class Animal {
 	protected void testProtect() {
 		System.out.println("Protected method");
 	}
+	public static void m1() {
+		System.out.println("Static method");
+	}
 	
+	public final void os()
+	{
+		System.out.println("Final");
+	}
 }
